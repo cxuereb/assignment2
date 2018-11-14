@@ -1,0 +1,7 @@
+<h1> Student Directory </h1>
+<% @students.each do |student| %>
+ <li> <a href="/students/<%= student.id %>"><%=student.lastname%></a>Student Info</li>
+<% end %>
+<li> <a href="/students/new"</a>Add a New Student</li>
+<li> <a href="/students/"</a>Edit Student</li>
+<li> <a href="/students/"</a>Delete Student</li>
