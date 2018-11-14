@@ -2,7 +2,7 @@ source: rubygems
 gem "sinatra"
 gem "erb"
 gem "sass"
-gem "data_mapper"
+gem "datamapper"
 gem "dm-core"
 gem "dm-migrations"
 gem "thin"
